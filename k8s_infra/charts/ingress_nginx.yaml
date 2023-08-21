@@ -21,7 +21,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: ingress-nginx
-        namespace: ingress-nginx
+        namespace: nginx
       interval: 12h
   valuesFrom:
     - kind: ConfigMap
