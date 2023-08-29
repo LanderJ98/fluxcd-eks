@@ -6,6 +6,8 @@ metadata:
 spec:
   interval: 30m
   url: https://github.com/LanderJ98/custom-charts
+  ref:
+    branch: main
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
