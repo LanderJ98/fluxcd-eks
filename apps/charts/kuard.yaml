@@ -19,7 +19,6 @@ spec:
   chart:
     spec:
       chart: kuard
-      version: "*"
       sourceRef:
         kind: GitRepository
         name: kuard
