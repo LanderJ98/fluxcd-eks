@@ -8,7 +8,7 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: main
+    branch: test_chart
   secretRef:
     name: flux-system
   url: ssh://git@github.com/LanderJ98/fluxcd-eks
