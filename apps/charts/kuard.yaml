@@ -4,7 +4,7 @@ metadata:
   name: kuard
   namespace: apps
 spec:
-  interval: 30m
+  interval: 5m
   url: https://github.com/LanderJ98/custom-charts
   ref:
     branch: main
@@ -15,7 +15,7 @@ metadata:
   name: kuard
   namespace: apps
 spec:
-  interval: 30m
+  interval: 5m
   chart:
     spec:
       chart: kuard
